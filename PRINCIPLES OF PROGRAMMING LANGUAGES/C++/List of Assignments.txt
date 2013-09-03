@@ -1,0 +1,33 @@
+Assignment 1
+
+Create a class DONOR that contains
+{ donor number, donor name, age, address, sex, blood group }
+Write a Menu driven C++ program to display the result in the form of donor number, name and address of the donors for the following categories:
+(a) blood donors having the blood group O+
+(b) Make groups of blood donors by their blood group.
+(b) blood donors in the age group between 16 to 25
+(c) Female donors having blood group A in the age between 19 and 24.
+
+
+
+Assignment 2
+
+Create a class Employee that contains
+{ employee number, employee name, designation, basic pay,
+deductions (LIC, PF) }
+Include a member function to get data from user for ‘N’ number of employees. Write a C++ program to prepare the pay slips for ‘N’ number of employees using the following details:
+D.A = 40% of basic pay
+H.R.A = 25% of basic pay
+Gross pay = basic pay + D.A. + H.R.A.
+Net pay = Gpay – deductions (Net pay is the amount left over after deductions from the gross salary.)
+The result of problems is in given format :
+(1)Emp. no (2)Emp. name (3)Basic (4)D.A. (5)H.R.A. (5)L.I.C. (6)P.F. (7)Gross pay (8)Net pay
+
+
+
+Assignment 3
+
+Create a class called TIME that has integer data elements for hours, minutes and seconds. The constructors should initialize these data elements to specified value, if given otherwise set it to 0. There is a reset function to reset the current time of an existing object.
+Another member function should add two objects of type Time, passed as arguments. And there must be a conversion function which converts the values i.e. hrs<=24, mins<=59, sec<=59 after performing addition operation. 
+
+At last we have display member function which displays the result in the form of e.g. 11:50:45

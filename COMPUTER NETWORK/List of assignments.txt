@@ -1,0 +1,38 @@
+Assignment 1
+
+Study ISO OSI and TCP/IP reference model using Netsim.
+
+
+Assignment 2
+
+The lab assignment is a warm-up testing of the Wireshark software. In this lab, we retrieve a web page and then, using Wireshark, capture packets.
+
+
+Assignment 3
+
+Write a program for Bitstuffing for one frame.
+Take input from standard input or file and perform bitstuffing.Attach the flags and generate output for sender side.Do the same for receiver side in second part and retain original i/p data.   Flag:01111110
+Example:
+		I/p:11111
+		o/p for sender:0111111011111001111110
+		o/p for recever:11111
+
+
+Assigment 4
+
+Write a program to find the minimum hamming distance among input codewards.
+
+
+Assignment 5
+
+Write a program for CRC on sender and receiver side.
+
+
+Assignment 6
+
+Write a program for humming code on sender and receiver side.
+
+
+Assignment 7
+
+Write a programme of Checksum as expained in the lab.

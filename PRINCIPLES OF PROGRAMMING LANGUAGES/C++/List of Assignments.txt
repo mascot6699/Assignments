@@ -31,3 +31,25 @@ Create a class called TIME that has integer data elements for hours, minutes and
 Another member function should add two objects of type Time, passed as arguments. And there must be a conversion function which converts the values i.e. hrs<=24, mins<=59, sec<=59 after performing addition operation. 
 
 At last we have display member function which displays the result in the form of e.g. 11:50:45
+
+
+Assignment 4
+
+Write a program to overload function for (pre & post increment) ++ operator.
+
+
+Assignment 5
+
+Write a program to overload the << and >> shift operators and input (>>) & output (<<) operators. Make one class ABC with integer array named iarr and character array named carr. The shifting operator function accepts integer value as an argument and perform the shifting operation on integer array. In IO operator overloading functions get/put the values for both the arrays.
+
+
+Assignment 6
+
+
+Create a class Int to Overload all five integer arithmetic operators (+, –, *, / and %).
+So that they operate on object of type Int. If the result of any such arithmetic operation exceeds the normal range of int's – from –32,768 to 32,767 – have the operator print a warning and terminate the program. Write a program to test this class.
+
+
+
+
+

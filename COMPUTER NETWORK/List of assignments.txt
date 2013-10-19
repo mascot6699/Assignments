@@ -36,3 +36,8 @@ Write a program for humming code on sender and receiver side.
 Assignment 7
 
 Write a programme of Checksum as expained in the lab.
+
+
+Assignment 8
+
+Bitstuffing using variable flag

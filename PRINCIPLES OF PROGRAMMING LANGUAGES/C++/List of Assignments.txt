@@ -50,6 +50,14 @@ Create a class Int to Overload all five integer arithmetic operators (+, –, *, /
 So that they operate on object of type Int. If the result of any such arithmetic operation exceeds the normal range of int's – from –32,768 to 32,767 – have the operator print a warning and terminate the program. Write a program to test this class.
 
 
+Assignment 7
+
+Create a Matrix class with the concept dynamic resource (memory) allocation. Matrix Class contains no. of member functions to perform the task of :- get matrix, show matrix, add matrix, subtract matrix and compare matrix elements. At the end use destructor to destroy this dynamically allocated memory.
+
+
+Assignment 8
+
+Create an abstract base class called person. Use this class to store name and age of a person. Derive two specific classes called student and professor from base class. Student class is having a variable cpi of double type and professor class is having a variable no_of_publications. Create one virtual function is_outstanding which declares a person as outstanding if he is with cpi greater then 9.0 or no_of_publication is greater than 25.Write main() also for implementing above classes.
 
 
 

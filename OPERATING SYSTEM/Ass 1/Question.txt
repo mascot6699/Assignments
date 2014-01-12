@@ -1,0 +1,16 @@
+1)Write a shell script, which finds the prime factors of a given number.
+
+2)Write a shell script that accepts a positive integer value from the user, say 34, and prints out all the divisors of 34 as a list:
+Enter a positive integer: 34
+The divisors of 34 are: 1, 2, 17, and 34.
+
+3)Write a shell script, which finds the total number of blank lines in the given file.
+
+
+4)Write a shell script, which prints good morning or good evening depending on the login time of the user.
+
+
+5)A shell script, which reports the names and sizes of all the files in a directory whose size exceeds 1000 bytes, in descending order of their sizes and the total number of such files.
+
+
+6)A shell script, which takes as command line input a number n, and a word. It then prints the word n times, once on each line.

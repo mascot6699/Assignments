@@ -1,0 +1,18 @@
+1) 	 select * from track where distance < 20;
+
+2)	create view v1 as select unique id from trainhalts where stcode like (select stcode from station where name like 'GHATKOPAR');
+	select train.name from train , v1 where train.id like v1.id;
+
+3)	create view v2 as select id from trainhalts where seqno = 0;
+	select train.name from train , v2 where train.id like v2.id order by name;
+
+4)	create view v3 as select stcode from trainhalts where id like (select id from train where name like 'CST-AMR_LOCAL') order by seqno;
+	select station.name from v3 , station where v3.stcode like station.stcode;
+
+5)	CREATE VIEW v4 AS select id from trainhalts where stcode like (select stcode from station where name = 'THANE' )and seqno < 6;
+	select train.name from train , v4 where train.id like v4.id;
+
+
+
+	
+

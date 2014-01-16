@@ -1,0 +1,9 @@
+Create a text file.
+
+1) Write a  C-program to read a text file and search for some keyword. Display some specified keyword from file if exists.
+
+2) Write your own cat command as mycat. Display the contant of original text file and modified text file using mycat.
+
+3) Write your own cp command as mycopy. Copy the content of original text file and paste text into another file using mycopy.
+
+** Handle all possible errors.

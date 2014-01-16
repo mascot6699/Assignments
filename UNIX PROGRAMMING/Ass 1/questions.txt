@@ -1,0 +1,31 @@
+Tutorial : 1 Basic Unix Commands
+
+Que-1 Create structure:
+		
+		username
+		       |
+      ------------------------------------
+      |				         |
+    binuser			    bgiuser
+
+
+Que-2  Make another directory inside the binuser directory called backups
+Que-3  Explore the username file structure .
+Que-4  Create science.txt, Finance.txt, BullsEye.game  file inside bgiuser.
+Que-5  Create a backup of your science.txt file by copying it to a file called science.bak
+Que-6  Display the contents of all file in following terms:
+	first 10 lines
+	last 15 lines
+	with page break
+Que-7  Display total no of lines, total bytes, and total words in files.
+Que-8  Move Finance.txt file as finance.back in backup directory.
+Que-9  Create one directory inside bgiuser called COED.
+Que-10 Copy all files inside COED directory.
+Que-11 Append some data to BullsEye.game file.
+Que-12 Create user.log file with list of all logged in user.
+Que-13 Try all possible modes of access permissions on the file science.txt and on the directory backups.
+Que-14 Display total free size of your disk.
+Que-15 Compress the size of your disk files.
+Que-16 Search a file with extension ".txt."
+Que-17 Search file which size is greater than 10Kb.
+Que-18 Display all "coed" word from files you have just created.

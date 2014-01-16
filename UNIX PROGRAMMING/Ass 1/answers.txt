@@ -1,0 +1,23 @@
+Que 1	mkdir username
+	cd username
+	mkdir binuser
+	mkdir bgiuser
+Que 2 	mkdir backups
+Que 3	ls	
+Que 4 	cat > science.txt	cat > Finance.txt	cat > BullsEye.txt
+Que 5	cp science.txt ./backups/science.bak
+Que 6 	head -n15 science.txt
+	tail -n11 science.txt
+	more science.txt
+Que 7 	wc science.txt
+Que 8  	cp Finance.txt ../binuser/backups/finance.bak
+Que 9  	mkdir COED
+Que 10 	cp *.* ./COED
+Que 11 	cat >>BullsEye.txt
+Que 12 	who > abc.log
+Que 13 	chmod ugo+r df.txt
+Que 14 	free
+Que 15 	gzip *.* or gzip -c and.txt > and.txt.gz
+Que 16 	ls *.txt
+Que 17 	find ./ -size +10k
+Que 18 	cat *.* | grep -a COED

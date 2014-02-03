@@ -1,0 +1,1 @@
+create table sailors(sid number, sname varchar2(20),rating number,age number);

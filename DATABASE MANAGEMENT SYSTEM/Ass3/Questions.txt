@@ -1,0 +1,23 @@
+Write following PL SQL:-
+
+PL/SQL to print "hello world".
+PL/SQL to find addition of two  numbers.
+PL/ SQL to find Largest and smallest of three numbers.
+PL/SQL program to ptint 1 to 10 using goto, for, while and loop statements.
+PL/SQL to find square of a given number
+create the following table
+SAILORS (SID:INTEGER, SNAME:STRING, RATING:INTEGER, AGE:REAL)
+
+Insert the record into Sailors table by reading the values from the Keyboard.
+write PL SQL to display that on screen.
+Write a program to delete records from sailors table by reading SID from Keyboard.
+ 7.  Write a PL/SQL block to find the factorial of the user given number.
+ 8.  Write PL/SQL Block to find the Fibonacci series for the user given number.
+ 9. create the following table
+ EMP(EMPNO:VARCHAR2,ENAME:VARCHAR2,SAL:REAL,COMM:REAL,              D_NUMBER:INTEGER,  DNAME:VARCHAR2)
+
+1. Create PL/SQL program using cursors which will display    EMPNO,ENAME,SAL and  COMM on screen from EMP table for department 20 and 30 in the order of department number.
+
+2.  Write a PL/SQL block to delete all the employees of department 20 with salary more than 3000.
+
+3.  Write a PL/SQL block using CURSOR FOR LOOP which will display the top 5 salaried employees from EMP table and add those employees in a new table named  “EMP_TOP_EARNERS”.

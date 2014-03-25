@@ -1,0 +1,6 @@
+1. Write a program which takes multiple user name as an arguments on command line and print following :
+a) Full Name (Description ) of User
+b) uid, gid and Group name of user
+c) All user name under that group.
+
+2. Study of fork() , vfork(), wait() and waitpid() function in detail and try any one example of those.

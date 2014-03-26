@@ -1,0 +1,31 @@
+Memory Management
+
+ 
+
+ Objective
+
+To implement first fit, best fit and worst fit storage allocation algorithms for memory
+
+management.
+
+ Description
+
+A set of holes, of various sizes is scattered through the memory at any given time. When a process arrives and needs the memory, the system searches for a hole that is large enough for this process. The first-fit, best-fit and worst-fit are strategies used to select a free hole from the set of available holes.
+
+ Implementation details
+
+Free space is maintained as a linked list of nodes with each node having the starting byte address and the ending byte address of a free block. Each memory request consists of the process-id and the amount of storage space required in bytes. Allocated memory space is again maintained as a linked list of nodes with each node having the process-id, starting byte address and the ending byte address of the allocated space.
+
+ When a process finishes (taken as input) the appropriate node from the allocated list should be deleted and this free disk space should be added to the free space list. [Care should be taken to merge contiguous free blocks into one single block. This result in deleting more than one node from the free space list and changing the start and end address in the appropriate node]. For allocation use first fit, worst fit and best fit.
+
+ First-Fit
+
+Allocate the first hole that is big enough. Searching can start either at the beginning of the set of holes or where the previous first-fit search ended. You can stop searching as soon as you find a free hole that is large enough.
+
+ Best-Fit
+
+Allocate the smallest hole that is big enough. You must search the entire list unless the list is kept ordered by size. The strategy produces the smallest leftover hole.
+
+ Worst fit
+
+Allocate the biggest hole. 

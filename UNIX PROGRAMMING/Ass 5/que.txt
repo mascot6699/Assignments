@@ -1,0 +1,5 @@
+1)   Write a C-program to detect the type of file. (e.g. Regular file or Directory).
+2)   Write a C program to know read/write permission of given file.
+3)   Write a C program to know the size and last date of modification of any file.
+4)   Set your umask to various values and see what happens to new files you   create.
+5)   To verify by writing an appropriate code that turning off user-read permission for a file         that you own denies you access to the file, even if group- or other permissions.  

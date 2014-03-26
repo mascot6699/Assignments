@@ -1,0 +1,7 @@
+Briefly read the pread() and pwrite() system calls and compare it with lseek() system call.
+
+1) Write a  C program to change the file status flags using fcntl functions.
+
+2) Write a C program to Print file flags for specified descriptor.
+
+3) Write your own system call dup2 that performs the same service as the dup2 function.

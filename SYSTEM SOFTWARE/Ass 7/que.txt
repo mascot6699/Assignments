@@ -1,0 +1,25 @@
+Write a C program to implement a table driven predictive parser for the grammar given below.
+
+E -> TE’
+
+E' -> + TE’| e
+
+T -> FT’
+
+T’ -> *FT’ | e
+
+F -> (E) | id
+
+ 
+
+ This implementation should contain two different modules. The first module should construct the LL(1) parsing table from the (a) input grammar (“Grammar.txt”) and (b) computed FIRST, FOLLOW set (“Fst-Fol.txt”). The representation of parse table is up to you (either in a file or in a temporary data structure). In the second module, take an input expression given below and parse it using the parse table. The output of the program should print "Accepted" in case the input expression satisfies the given grammar. In the event of errors, try to do as clear error reporting as possible.
+
+ 
+
+Input expressions:
+
+1)      id+id*id
+
+2)      idid+
+
+3)      id$id$

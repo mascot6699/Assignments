@@ -1,0 +1,10 @@
+Write PL/SQL scripts for following
+
+Display the name of day  according number of day by using CASE with default case
+Write a PL/SQL block to find the sum of first 100 odd nos. and even nos
+Write a program to check the given number is Prime or not.
+Write a program to find the sum of digits of a number.
+Using a FOR loop with PL/SQL; display the area of the circle with radius ranging from 1 to 5.
+Write a Program to check the given year is leap year or not.
+Write PL/SQL  that checks the given string is palindrome or not.
+Write Pl/SQL that checks whether given number is binary or not.

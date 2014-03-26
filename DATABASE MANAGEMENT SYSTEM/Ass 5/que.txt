@@ -1,0 +1,26 @@
+Create the following table  and insert data(at least 5 tuples) into the table:
+Employee (empid, empname, department_no, position, salary(monthly),DOB,city)
+Consider this schema to write PL/SQL blocks for the following questions. 
+
+1. Insert the data in to table using PL/SQL block.
+
+2. Execute a PL/SQL block such that the above table is updated as follows 
+If position  = ‘P1’ ; salary = salary + 10000       
+If position  = ‘p2’ ; salary = salary + 5000
+If position  = ‘P3’ ; salary = salary + 4000
+
+3. Execute a PL/SQL block to update the position of the empid entered by the user to ‘AP’ at run time.
+
+4. write a PL/SQL block to display the sum of salary of all the employees with empid <1000.
+
+5. Write PL/SQL block to stroe a department number in substitution variable and print the number of people working in that department.
+
+6.Write Pl.SQl block to Store an employee name in a substitution variable , store  his/her salary in the v_salary , if the salary is less than 13,000 give a raise of 2000 and display the message<’Employee Name’> salary updated. If salary is more than 13,000 ,then display the position on which they are. and then print the employee’s salary in the format<’Employee Name’> earns <salary>for all employees.
+
+7. write PL/ SQL block to find total number of employees working in each department.
+
+8. write PL/SQL block to find all the employees whose age < 35 years.
+
+9. write PL/ SQL block to find all the employees having same DOB.
+
+10. write PL/SQL block to find the city for all the employees who is live in the same city in     which the youngest employee live.

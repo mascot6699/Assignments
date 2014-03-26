@@ -1,0 +1,7 @@
+1) Write a C Programs that counts the number of blanks in a text file using system calls.
+
+2) Write your own cat command as mycat. Display the contant of original text file and modified text file using mycat.
+
+3) Write your own cp command as mycopy. Copy the contant of original text file and paste text into another file using mycopy.
+
+** Handle all possible errors using error system calls.

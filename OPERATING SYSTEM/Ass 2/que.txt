@@ -1,0 +1,15 @@
+1)    write a shell script which takes filename as argument and check whether file is regular file,directory,block special file,charcter special file,named pipe,symbolic link,socket,device file etc.
+
+ 
+
+2)Write a shell script which will take file name as argument and check whether the file name is a dir or not and then proceed further only if it is a dir, else give usage message. The script should then print in the tabular format, name of each sub-dir (within the argument dir) and a count of the number of top level files in that sub-dir. Modify the program to work with multiple number of arguments, too.
+
+3)Write a script that will search for a specific word in all the files in the current dictionary and then prompt with the file name in which word is found.
+
+4)Write a script to print only the number of executable file in each sub-dir of the argument directory specified.
+
+5)Write a non-interactive script that takes in any no. of directory name as argument and calculates total no. of blocks of disk space occupied by the ordinary files in all the directories.
+
+ 
+
+6)Write a shell script file named exercise2.sh that makes a list of files in your home directory that were changed less than 24 hours ago, but leave out directories.

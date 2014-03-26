@@ -1,0 +1,29 @@
+LRU Page Replacement Algorithm.
+
+Implement a LRU page replacement algorithm for given reference string .
+
+ 
+
+7 0 1 2 0 3 0 4 2 3 0 3 2 1 2 0 1 7 0 1
+
+Find the no of page fault
+
+
+Hint:
+
+1. Read input for no of pages--->'n'
+2. Read input for reference string ---> p[i] ( integer array )
+3. Read input for frames ---> 'f'
+
+
+ALGORITHM :
+
+1. Start the process
+2. Declare the size
+3. Get the number of pages to be inserted
+4. Get the value
+5. Declare counter and stack
+6. Select the least recently used page by counter value
+7. Stack them according the selection.
+8.  Display the values
+9. Stop the process

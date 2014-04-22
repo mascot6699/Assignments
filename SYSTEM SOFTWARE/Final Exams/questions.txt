@@ -1,0 +1,9 @@
+1) Make a program for left factoring of the productions
+
+Left Factoring
+
+Left factoring is a grammar transformation that is useful producing a grammar suitable for predictive parsing. The basic idea is that when it is not clear which of two alternative productions to use to expand a non terminal A, we may rewrite the A-productions to defer the decision until we have seen enough of the input to make the right choice. 
+If A==>ab1|ab2 are two A-productions and the input begins with a non empty string derived from a , we do not know whether to expand A to ab1 or to ab2.
+We may defer decision by expanding A to aA' . Then after seeing the input derived from a we expand A' to b1 or to b2
+A==>aA'
+A'==>b1|b2
